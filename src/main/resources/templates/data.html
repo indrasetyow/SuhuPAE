@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Halaman Hasil</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <style>
+            h1{
+                font-family: 'Fredericka the Great', cursive;
+                padding-bottom: 40px;
+            }
+            button{
+                margin-top: 20px;
+                margin-right: 220px;
+            }
+            body{
+                background-repeat: no-repeat;
+                background-size: 100%;
+                vertical-align: middle;
+                padding-top: 100px;
+            }
+            table, th, td {
+                border: 1px solid black;
+                background-color: whitesmoke;
+                width: 300px;
+                text-align: center;
+                
+            }
+            footer{
+                background-color: black;
+                text-align: center;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+        
+        <h1 style="color: white">HASIL KONVERSI</h1>
+        <h2 th;text="$(suhu)">
+            
+        </h2>
+        <table>
+            <tr>
+                <th th;text="$(suhu)"></th>
+              
+            </tr>
+            <tr>
+                <td th:text="${hasil}"></td>
+                        
+            </tr>      
+        </table>
+        <a href="/index.html"> <button class="btn-primary">Kembali</button></a>
+    </center>
+    
+    </body>
+</html>
